@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBDFDE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/notetitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a Class"
+        android:textColor="#393838"
+        android:layout_marginTop="370dp"
+        android:textAlignment="center"
+        android:textSize="16dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="24dp"
+        android:backgroundTint="#2294D2"
+        android:src="@drawable/add"
+        android:id="@+id/fab_main"/>
+
+    <include
+        android:id="@+id/toolbarmain"
+        layout="@layout/toolbar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/classrecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarmain"
+        android:layout_marginTop="4dp" />
+
+</RelativeLayout>

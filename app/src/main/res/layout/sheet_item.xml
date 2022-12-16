@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="16dp"
+    android:backgroundTint="@color/white"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="8dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/date_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nov 2020"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+
+</androidx.cardview.widget.CardView>

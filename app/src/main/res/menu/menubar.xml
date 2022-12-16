@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:title="Save Attendence"-->
+<!--        android:id="@+id/add_student" />-->
+    <item
+        android:title="Change Date"
+        android:id="@+id/change_date" />
+    <item
+        android:title="Attendence Sheet"
+        android:id="@+id/show_attendence_sheet" />
+
+</menu>
